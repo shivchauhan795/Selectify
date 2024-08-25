@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import ViewerImageCard from './ViewerImageCard';
 
 const Gallery = () => {
-  const backendURL = 'http://localhost:3000/';
+  const backendURL = 'https://selectify-backend.onrender.com/';
   const { nameId } = useParams();
   const [photos, setPhotos] = useState([]);
   const [error, setError] = useState(null);

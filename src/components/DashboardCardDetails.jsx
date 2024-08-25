@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const cookies = new Cookies();
 
 function DashboardCardDetails() {
-    const backendURL = 'http://localhost:3000/';
+    const backendURL = 'https://selectify-backend.onrender.com/';
     const { uniqueId } = useParams(); // Extract uniqueId from URL
     const [cardData, setCardData] = useState(null);
     const [error, setError] = useState(null);

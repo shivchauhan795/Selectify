@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const ViewerImageCard = ({ photoUrl, originalFileName, isSelected: initialIsSelected, id, uniqueID }) => {
     const [isSelected, setIsSelected] = useState(initialIsSelected);
-    const backendURL = 'http://localhost:3000/';
+    const backendURL = 'https://selectify-backend.onrender.com/';
 
     const handleIsSelectedClick = async () => {
         try {

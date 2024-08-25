@@ -8,7 +8,7 @@ const cookies = new Cookies();
 
 const Upload = () => {
     const navigate = useNavigate();
-    const backendURL = 'http://localhost:3000/';
+    const backendURL = 'https://selectify-backend.onrender.com/';
     const token = cookies.get("SELECTIFY_TOKEN");
     const [uploading, setUploading] = useState(false);
     const [files, setFiles] = useState([]);

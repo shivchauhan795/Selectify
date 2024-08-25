@@ -3,7 +3,7 @@ import DashboardCard from './DashboardCard';
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
-    const backendURL = 'http://localhost:3000/';
+    const backendURL = 'https://selectify-backend.onrender.com/';
     const [photoLinks, setPhotoLinks] = useState([]);
     const [error, setError] = useState(null);
 
